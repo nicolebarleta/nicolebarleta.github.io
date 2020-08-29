@@ -68,10 +68,13 @@ html, body{
   font-weight: 400;
   letter-spacing: .12rem;
   text-transform: uppercase;
+
 }
 
 .navbar{
   background-image: linear-gradient(to right, #d16ba5, #c37bbf, #b08bd3, #9a9ae1, #86a8e7);
+
+
 }
 
 .nav-link{
@@ -83,6 +86,7 @@ html, body{
   text-shadow: .05rem .05rem 05.rem rgba(0, 0, 0, .15);
   margin-right: .8rem;
 
+
 }
 
 .nav-link.active,.nav-link:hover{
@@ -92,16 +96,35 @@ html, body{
 /*--End style of navigation--*/
 
 /*--Start style of about me--*/
-img{
-  max-width: 50%;
+#about img{
+  max-width: 20%;
+
 }
 /*--End style of about me-*/
 
+/*--Start style of projects-*/
+
+.biositeBtn{
+  font-family: "Montserrat", sans-serif;
+  font-size: 135%;
+  font-weight: 400;
+  color:black;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: solid black;
+  padding: 10px 20px;
+  border-radius: 9px;
+  transition: all 0.5s;
+
+}
+#projects{
+text-align: center;
+}
 
 
-
-
-
+#contact{
+  text-align: center;
+}
 
 
 
@@ -109,7 +132,7 @@ img{
 /*-- Media Queries--*/
 
 @media screen and (max-width: 900px) {
-  /*--Start query of introduction--*/
+
   .intro{
     padding-bottom: 10rem;
   }
@@ -127,10 +150,10 @@ img{
     font-size: 110%;
     padding: 9px 17px;
   }
-  /*--End query of introduction--*/
+
 }
 @media screen and (max-width: 768px) {
-  /*--Start query of introduction--*/
+
   .intro{
     padding-bottom: 20rem;
   }
@@ -145,10 +168,9 @@ img{
     padding: 7px 15px;
   }
 
-  /*--End query of introduction--*/
 }
 @media screen and (max-width: 480px) {
-  /*--Start style of introduction--*/
+
   .intro{
     padding-bottom: 20%;
   }
