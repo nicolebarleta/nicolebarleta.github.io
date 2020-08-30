@@ -224,3 +224,9 @@ footer a:visited, a:link, a:hover{
   text-decoration: none;
   color:black;
 }
+#icons{
+  padding-bottom: 5rem;
+}
+.fa-copyright{
+  letter-spacing: .10rem;
+}
