@@ -9,6 +9,8 @@ html, body{
   padding: 0;
   height: 100%;
   width: 100%;
+  font-family: "Montserrat", sans-serif;
+  color: #343a40;
 
 }
 /*--Start style of introduction--*/
@@ -48,15 +50,16 @@ html, body{
   border-radius: 9px;
   transition: all 0.5s;
 }
+
 .introBtn:hover{
   color:  #5996e5;
   text-decoration: none;
   border: solid #5996e5 2px;
 }
+
 .bottom{
   padding-bottom: 20rem;
 }
-
 
 /*--End style of introduction--*/
 
@@ -73,8 +76,6 @@ html, body{
 
 .navbar{
   background-image: linear-gradient(to right, #d16ba5, #c37bbf, #b08bd3, #9a9ae1, #86a8e7);
-
-
 }
 
 .nav-link{
@@ -85,8 +86,6 @@ html, body{
   font-size: 1.2rem;
   text-shadow: .05rem .05rem 05.rem rgba(0, 0, 0, .15);
   margin-right: .8rem;
-
-
 }
 
 .nav-link.active,.nav-link:hover{
@@ -115,20 +114,51 @@ html, body{
   padding: 10px 20px;
   border-radius: 9px;
   transition: all 0.5s;
-
+}
+.biositeBtn:hover{
+  color:  #5996e5;
+  text-decoration: none;
+  border: solid #5996e5 2px;
+}
+#about{
+  padding-bottom: 7rem;
+  text-align: center;
 }
 #projects{
 text-align: center;
 }
 
 
-#contact{
-  text-align: center;
+#biosite{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#info{
+  text-align: right;
 }
 
+.carousel .carousel-indicators li {
+  background-color: #fff;
+  background-color: rgba(70, 70, 70, 0.25);
+}
+.carousel-control-prev{
+  background-color: rgba(70, 70, 70, 0.25);
+}
+.carousel-control-next{
+  background-color: rgba(70, 70, 70, 0.25);
+}
+.carousel .carousel-indicators .active {
+  background-color: #444;
+}
 
-
-
+#contact{
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+}
+.row{
+  text-align: center;
+}
 /*-- Media Queries--*/
 
 @media screen and (max-width: 900px) {
@@ -184,16 +214,8 @@ text-align: center;
     font-size: 100%;
     padding: 6px 14px;
   }
-
+}
    /*--End query of introduction--*/
-
-
-
-
-
-
-
-
 footer{
   color:  #1a1817;
   text-align: center;
