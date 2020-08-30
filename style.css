@@ -155,9 +155,6 @@ text-align: center;
 padding-bottom: 5rem;
 text-align: center;
 }
-.row{
-  text-align: center;
-}
 /*-- Media Queries--*/
 
 @media screen and (max-width: 900px) {
