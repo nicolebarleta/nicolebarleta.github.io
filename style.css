@@ -31,6 +31,7 @@ html, body{
   font-size: 275%;
   font-weight: 150;
   color: #e1efe9;
+  -webkit-text-fill-color: #e1efe9;
   line-height: 70%;
   letter-spacing: .1rem;
 }
@@ -210,6 +211,10 @@ text-align: center;
     font-size: 110%;
     padding: 7px 15px;
   }
+  .biositeBtn{
+    font-size: 110%;
+    padding: 7px 17px;
+  }
 
 }
 @media screen and (max-width: 480px) {
@@ -224,6 +229,10 @@ text-align: center;
     font-size: 100%;
   }
   .introBtn {
+    font-size: 100%;
+    padding: 6px 14px;
+  }
+  .biositeBtn{
     font-size: 100%;
     padding: 6px 14px;
   }
