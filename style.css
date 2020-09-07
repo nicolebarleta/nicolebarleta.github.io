@@ -260,7 +260,7 @@ text-align: center;
     padding-bottom: 20rem;
   }
   .intro h1{
-    font-size: 230%;
+    font-size: 200%;
   }
   .intro h2{
     font-size: 140%;
@@ -300,6 +300,8 @@ text-align: center;
     background-image: linear-gradient(to right, #d16ba5, #c37bbf, #b08bd3, #9a9ae1, #86a8e7);
   }
 }
+
+
    /*--End query of introduction--*/
 footer{
   color:  #1a1817;
