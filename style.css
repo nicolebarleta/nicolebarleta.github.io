@@ -177,12 +177,13 @@ letter-spacing: .3rem;
 #projects{
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  width: 100%;
   }
 
 #biosite, #portfolio, #web-231, #web-330{
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  width: 50%;
+  width: 55%;
 }
 
 .biositeBtn{
@@ -257,7 +258,7 @@ letter-spacing: .3rem;
   width: 100%;
   border-left: none;
   height: 50%;
-  padding-left: 5rem;
+  padding-left: 10rem;
   padding-bottom: 10rem;
   padding-top: 2rem;
 
@@ -266,8 +267,34 @@ letter-spacing: .3rem;
 
 /*--End style of projects-*/
 
+.footer{
+  color:  #1a1817;
+  text-align: center;
+  place-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 5rem;
+  text-align: center;
 
 
+}
+.footer a:visited, a:link, a:hover{
+  text-decoration: none;
+  color:black;
+}
+#icons{
+  padding-bottom: 2rem;
+}
+.fa-copyright{
+  letter-spacing: .10rem;
+}
+#div_footer{
+  padding-top: 50rem;
+}
 /*-- Media Queries--*/
 
 @media screen and (max-width: 991px){
@@ -279,7 +306,15 @@ letter-spacing: .3rem;
     padding: 9px 17px;
   }
   #div_footer{
-    padding-top: 70%;
+    padding-top: 55rem;
+  }
+
+  .tab {
+    float: none;
+
+  }
+  #biosite, #portfolio, #web-231, #web-330{
+    width: 85%;
   }
 }
 @media screen and (max-width: 900px) {
@@ -305,14 +340,16 @@ letter-spacing: .3rem;
     font-size: 100%;
     padding: 9px 17px;
   }
-  #div_footer{
-    padding-top: 80%;
-    font-size: 100%;
-  }
+
+   #div_footer{
+      padding-top: 55rem;
+    }
+
   #navbarResponsive{
     background-image: linear-gradient(to right, #d16ba5, #c37bbf, #b08bd3, #9a9ae1, #86a8e7);
   }
 }
+
 @media screen and (max-width: 768px) {
 
   .intro{
@@ -333,12 +370,15 @@ letter-spacing: .3rem;
     padding: 7px 17px;
   }
   #div_footer{
-    padding-top: 100%;
+    padding-top: 55rem;
   }
   #navbarResponsive{
     background-image: linear-gradient(to right, #d16ba5, #c37bbf, #b08bd3, #9a9ae1, #86a8e7);
   }
 }
+
+
+
 @media screen and (max-width: 480px) {
 
   .intro{
@@ -360,8 +400,9 @@ letter-spacing: .3rem;
   }
 
   #div_footer{
-    padding-top: 100%;
+    padding-top: 55rem;
   }
+
   #navbarResponsive{
     background-image: linear-gradient(to right, #d16ba5, #c37bbf, #b08bd3, #9a9ae1, #86a8e7);
   }
@@ -371,31 +412,4 @@ letter-spacing: .3rem;
    /*--End query of introduction--*/
 
 
-#div_footer{
-  padding-top: 70%;
-}
 
-.footer{
-  color:  #1a1817;
-  text-align: center;
-  place-items: center;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 0;
-  font-family: "Montserrat", sans-serif;
-  padding-bottom: 5rem;
-  text-align: center;
-
-}
-.footer a:visited, a:link, a:hover{
-  text-decoration: none;
-  color:black;
-}
-#icons{
-  padding-bottom: 3rem;
-}
-.fa-copyright{
-  letter-spacing: .10rem;
-}
