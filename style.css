@@ -295,6 +295,9 @@ letter-spacing: .3rem;
 #div_footer{
   padding-top: 50rem;
 }
+#div_footerPresentation{
+  padding-top: 5rem;
+}
 /*-- Media Queries--*/
 
 @media screen and (max-width: 991px){
@@ -331,9 +334,11 @@ letter-spacing: .3rem;
     font-size: 150%;
 
   }
-  .introBtn {
+  .introBtn{
     font-size: 110%;
     padding: 9px 17px;
+    color: white;
+
   }
 
   .biositeBtn{
@@ -361,9 +366,10 @@ letter-spacing: .3rem;
   .intro h2{
     font-size: 140%;
   }
-  .introBtn {
+  .introBtn{
     font-size: 110%;
     padding: 7px 15px;
+    color: white;
   }
   .biositeBtn{
     font-size: 100%;
@@ -390,9 +396,10 @@ letter-spacing: .3rem;
   .intro h2{
     font-size: 100%;
   }
-  .introBtn {
+  .introBtn{
     font-size: 100%;
     padding: 6px 14px;
+    color: white;
   }
   .biositeBtn{
     font-size: 100%;
