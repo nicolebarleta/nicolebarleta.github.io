@@ -323,7 +323,7 @@ letter-spacing: .3rem;
 @media screen and (max-width: 900px) {
 
   .intro{
-    padding-bottom: 10rem;
+    padding-bottom: 20rem;
   }
   .intro h1{
     font-size: 330%;
@@ -416,6 +416,26 @@ letter-spacing: .3rem;
 }
 
 
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+  float: left;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
    /*--End query of introduction--*/
 
 
