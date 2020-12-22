@@ -112,11 +112,22 @@ html, body{
 
 }
 
-.navbar{
-  background-image: linear-gradient(to right, #d16ba5, #c37bbf, #b08bd3, #9a9ae1, #86a8e7);
 
+#presentations-dropdown{
+  color: #515154;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: .12rem;
+  font-size: 1.2rem;
+  text-shadow: .05rem .05rem 05.rem rgba(0, 0, 0, .15);
+  margin-right: .8rem;
+  background-color: transparent;
+  border: none;
+  text-align: center;
 }
-
+#dropdown-item{
+color: #515154;
+}
 /*--End style of navigation--*/
 
 /*--Start style of about me--*/
@@ -124,7 +135,7 @@ html, body{
 
 #about{
   font-family: "Montserrat", sans-serif;
-  padding-top: 5rem;
+  padding-top: 7rem;
   padding-bottom: 2rem;
 
 }
@@ -216,32 +227,38 @@ letter-spacing: .3rem;
 .carousel-control-next{
   background-color: rgba(70, 70, 70, 0.25);
 }
-.carousel .carousel-indicators .active {
+.carousel .carousel-indicators .active .item{
   background-color: #444;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.carousel-inner{
+  height: 100%;
+}
+
+.carousel-inner img {
+  margin: auto;
 }
 
 /* Style the tab */
 .tab {
-  float: left;
+  overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #f1f1f1;
-  width: 30%;
-  height: 300px;
+  background-color: #f1f1f1;;
+  text-align: center;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
-  display: block;
   background-color: inherit;
-  color: black;
-  padding: 22px 16px;
-  width: 100%;
+  float: left;
   border: none;
   outline: none;
-  text-align: left;
   cursor: pointer;
+  padding: 14px 16px;
   transition: 0.3s;
-  font-size: 17px;
+  text-align: center;
 
 }
 
@@ -256,13 +273,9 @@ letter-spacing: .3rem;
 
 /* Style the tab content */
 .tabcontent {
-  float: left;
-  width: 100%;
-  border-left: none;
-  height: 50%;
-  padding-left: 10rem;
-  padding-bottom: 10rem;
-  padding-top: 2rem;
+  display: none;
+  border-top: none;
+  text-align: center;
 
 }
 
@@ -283,6 +296,7 @@ letter-spacing: .3rem;
   padding-top: 5rem;
 
 
+
 }
 .footer a:visited, a:link, a:hover{
   text-decoration: none;
@@ -295,7 +309,7 @@ letter-spacing: .3rem;
   letter-spacing: .10rem;
 }
 #div_footer{
-  padding-top: 50rem;
+  padding-top: 5rem;
 }
 
 /*-- Media Queries--*/
@@ -309,7 +323,7 @@ letter-spacing: .3rem;
     padding: 9px 17px;
   }
   #div_footer{
-    padding-top: 55rem;
+    padding-top: 5rem;
   }
 
   .tab {
@@ -347,7 +361,7 @@ letter-spacing: .3rem;
   }
 
    #div_footer{
-      padding-top: 55rem;
+      padding-top: 5rem;
     }
 
   #navbarResponsive{
@@ -376,7 +390,7 @@ letter-spacing: .3rem;
     padding: 7px 17px;
   }
   #div_footer{
-    padding-top: 55rem;
+    padding-top: 5rem;
   }
   #navbarResponsive{
     background-image: linear-gradient(to right, #d16ba5, #c37bbf, #b08bd3, #9a9ae1, #86a8e7);
@@ -407,7 +421,7 @@ letter-spacing: .3rem;
   }
 
   #div_footer{
-    padding-top: 55rem;
+    padding-top: 5rem;
   }
 
   #navbarResponsive{
