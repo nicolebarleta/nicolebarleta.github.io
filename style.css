@@ -11,13 +11,14 @@ html, body{
   font-family: "Lato", sans-serif;
   color: #343a40;
 }
-.br {
-  display: block;
-  margin-bottom: .3em;
-}
-#wrapper{
-  min-height: 100%;
+
+#page-container {
   position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
 }
 
 /*--Start style of introduction--*/
@@ -193,7 +194,6 @@ letter-spacing: .3rem;
   }
 
 
-
 .biositeBtn{
   font-family: "Montserrat", sans-serif;
   font-size: 120%;
@@ -289,7 +289,7 @@ letter-spacing: .3rem;
   font-family: "Montserrat", sans-serif;
   text-align: center;
   padding-top: 5rem;
-
+  margin-bottom: 5rem;
 
 
 }
@@ -303,9 +303,7 @@ letter-spacing: .3rem;
 .fa-copyright{
   letter-spacing: .10rem;
 }
-#div_footer{
-  padding-top: 5rem;
-}
+
 
 /*-- Media Queries--*/
 
@@ -317,9 +315,7 @@ letter-spacing: .3rem;
     font-size: 100%;
     padding: 9px 17px;
   }
-  #div_footer{
-    padding-top: 5rem;
-  }
+
 
   .tab {
     float: none;
@@ -355,9 +351,7 @@ letter-spacing: .3rem;
     padding: 9px 17px;
   }
 
-   #div_footer{
-      padding-top: 5rem;
-    }
+
 
   #navbarResponsive{
     background-image: linear-gradient(to right, #d16ba5, #c37bbf, #b08bd3, #9a9ae1, #86a8e7);
@@ -384,9 +378,7 @@ letter-spacing: .3rem;
     font-size: 100%;
     padding: 7px 17px;
   }
-  #div_footer{
-    padding-top: 5rem;
-  }
+
   #navbarResponsive{
     background-image: linear-gradient(to right, #d16ba5, #c37bbf, #b08bd3, #9a9ae1, #86a8e7);
   }
@@ -415,9 +407,6 @@ letter-spacing: .3rem;
     padding: 6px 14px;
   }
 
-  #div_footer{
-    padding-top: 5rem;
-  }
 
   #navbarResponsive{
     background-image: linear-gradient(to right, #d16ba5, #c37bbf, #b08bd3, #9a9ae1, #86a8e7);
