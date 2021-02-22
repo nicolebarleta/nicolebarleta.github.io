@@ -194,6 +194,13 @@ letter-spacing: .3rem;
   padding-bottom: 20rem;
   }
 
+.projects{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
 
 .biositeBtn{
   font-family: "Montserrat", sans-serif;
