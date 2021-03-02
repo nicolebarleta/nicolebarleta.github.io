@@ -115,19 +115,21 @@ html, body{
 
 
 #presentations-dropdown{
-  color: #515154;
+  color: black;
   text-transform: uppercase;
   font-weight: 200;
   letter-spacing: .12rem;
   font-size: 1.2rem;
   text-shadow: .05rem .05rem 05.rem rgba(0, 0, 0, .15);
   margin-right: .8rem;
-  background-color: transparent;
+  background-color: white;
   border: none;
   text-align: center;
 }
 #dropdown-item{
-color: #515154;
+color: black;
+font-family: "Montserrat", sans-serif;
+font-weight: 200;
 }
 /*--End style of navigation--*/
 
