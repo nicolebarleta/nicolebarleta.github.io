@@ -43,7 +43,6 @@ html, body{
   font-size: 275%;
   font-weight: 150;
   color: white;
-  -webkit-text-fill-color: white;
   line-height: 70%;
   letter-spacing: .1rem;
 }
@@ -286,6 +285,15 @@ letter-spacing: .3rem;
 
 
 /*--End style of projects-*/
+
+
+#capstone{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
 
 .footer{
   color:  #1a1817;
